@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66FACE7120EE015400811E0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACE7020EE015400811E0A /* AppDelegate.m */; };
+		66FACE7420EE015400811E0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACE7320EE015400811E0A /* ViewController.m */; };
+		66FACE7720EE015400811E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FACE7520EE015400811E0A /* Main.storyboard */; };
+		66FACE7920EE015500811E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FACE7820EE015500811E0A /* Assets.xcassets */; };
+		66FACE7C20EE015500811E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FACE7A20EE015500811E0A /* LaunchScreen.storyboard */; };
+		66FACE7F20EE015500811E0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACE7E20EE015500811E0A /* main.m */; };
+		66FACE8920EE015600811E0A /* LWCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACE8820EE015600811E0A /* LWCalendarTests.m */; };
+		66FACE9420EE015600811E0A /* LWCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACE9320EE015600811E0A /* LWCalendarUITests.m */; };
+		66FACEA420EE129400811E0A /* LWCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACEA320EE129400811E0A /* LWCalendarManager.m */; };
+		66FACEA720EE185800811E0A /* LWCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACEA620EE185800811E0A /* LWCalendarView.m */; };
+		66FACEAA20EE1FED00811E0A /* LWCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACEA920EE1FED00811E0A /* LWCalendarHeaderView.m */; };
+		66FACEAD20EE231A00811E0A /* LWCalendarTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACEAC20EE231A00811E0A /* LWCalendarTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66FACE8520EE015600811E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FACE6420EE015300811E0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FACE6B20EE015300811E0A;
+			remoteInfo = LWCalendar;
+		};
+		66FACE9020EE015600811E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FACE6420EE015300811E0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FACE6B20EE015300811E0A;
+			remoteInfo = LWCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66FACE6C20EE015300811E0A /* LWCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FACE6F20EE015300811E0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66FACE7020EE015400811E0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66FACE7220EE015400811E0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66FACE7320EE015400811E0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66FACE7620EE015400811E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66FACE7820EE015500811E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66FACE7B20EE015500811E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66FACE7D20EE015500811E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FACE7E20EE015500811E0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66FACE8420EE015600811E0A /* LWCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FACE8820EE015600811E0A /* LWCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCalendarTests.m; sourceTree = "<group>"; };
+		66FACE8A20EE015600811E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FACE8F20EE015600811E0A /* LWCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LWCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FACE9320EE015600811E0A /* LWCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCalendarUITests.m; sourceTree = "<group>"; };
+		66FACE9520EE015600811E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FACEA220EE129400811E0A /* LWCalendarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCalendarManager.h; sourceTree = "<group>"; };
+		66FACEA320EE129400811E0A /* LWCalendarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCalendarManager.m; sourceTree = "<group>"; };
+		66FACEA520EE185800811E0A /* LWCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCalendarView.h; sourceTree = "<group>"; };
+		66FACEA620EE185800811E0A /* LWCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCalendarView.m; sourceTree = "<group>"; };
+		66FACEA820EE1FED00811E0A /* LWCalendarHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCalendarHeaderView.h; sourceTree = "<group>"; };
+		66FACEA920EE1FED00811E0A /* LWCalendarHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCalendarHeaderView.m; sourceTree = "<group>"; };
+		66FACEAB20EE231A00811E0A /* LWCalendarTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCalendarTableView.h; sourceTree = "<group>"; };
+		66FACEAC20EE231A00811E0A /* LWCalendarTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCalendarTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66FACE6920EE015300811E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FACE8120EE015600811E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FACE8C20EE015600811E0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66FACE6320EE015300811E0A = {
+			isa = PBXGroup;
+			children = (
+				66FACE6E20EE015300811E0A /* LWCalendar */,
+				66FACE8720EE015600811E0A /* LWCalendarTests */,
+				66FACE9220EE015600811E0A /* LWCalendarUITests */,
+				66FACE6D20EE015300811E0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66FACE6D20EE015300811E0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66FACE6C20EE015300811E0A /* LWCalendar.app */,
+				66FACE8420EE015600811E0A /* LWCalendarTests.xctest */,
+				66FACE8F20EE015600811E0A /* LWCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66FACE6E20EE015300811E0A /* LWCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				66FACEA120EE127C00811E0A /* LWCalendar */,
+				66FACE6F20EE015300811E0A /* AppDelegate.h */,
+				66FACE7020EE015400811E0A /* AppDelegate.m */,
+				66FACE7220EE015400811E0A /* ViewController.h */,
+				66FACE7320EE015400811E0A /* ViewController.m */,
+				66FACE7520EE015400811E0A /* Main.storyboard */,
+				66FACE7820EE015500811E0A /* Assets.xcassets */,
+				66FACE7A20EE015500811E0A /* LaunchScreen.storyboard */,
+				66FACE7D20EE015500811E0A /* Info.plist */,
+				66FACE7E20EE015500811E0A /* main.m */,
+			);
+			path = LWCalendar;
+			sourceTree = "<group>";
+		};
+		66FACE8720EE015600811E0A /* LWCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				66FACE8820EE015600811E0A /* LWCalendarTests.m */,
+				66FACE8A20EE015600811E0A /* Info.plist */,
+			);
+			path = LWCalendarTests;
+			sourceTree = "<group>";
+		};
+		66FACE9220EE015600811E0A /* LWCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66FACE9320EE015600811E0A /* LWCalendarUITests.m */,
+				66FACE9520EE015600811E0A /* Info.plist */,
+			);
+			path = LWCalendarUITests;
+			sourceTree = "<group>";
+		};
+		66FACEA120EE127C00811E0A /* LWCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				66FACEA220EE129400811E0A /* LWCalendarManager.h */,
+				66FACEA320EE129400811E0A /* LWCalendarManager.m */,
+				66FACEA520EE185800811E0A /* LWCalendarView.h */,
+				66FACEA620EE185800811E0A /* LWCalendarView.m */,
+				66FACEA820EE1FED00811E0A /* LWCalendarHeaderView.h */,
+				66FACEA920EE1FED00811E0A /* LWCalendarHeaderView.m */,
+				66FACEAB20EE231A00811E0A /* LWCalendarTableView.h */,
+				66FACEAC20EE231A00811E0A /* LWCalendarTableView.m */,
+			);
+			path = LWCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66FACE6B20EE015300811E0A /* LWCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FACE9820EE015600811E0A /* Build configuration list for PBXNativeTarget "LWCalendar" */;
+			buildPhases = (
+				66FACE6820EE015300811E0A /* Sources */,
+				66FACE6920EE015300811E0A /* Frameworks */,
+				66FACE6A20EE015300811E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWCalendar;
+			productName = LWCalendar;
+			productReference = 66FACE6C20EE015300811E0A /* LWCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66FACE8320EE015600811E0A /* LWCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FACE9B20EE015600811E0A /* Build configuration list for PBXNativeTarget "LWCalendarTests" */;
+			buildPhases = (
+				66FACE8020EE015600811E0A /* Sources */,
+				66FACE8120EE015600811E0A /* Frameworks */,
+				66FACE8220EE015600811E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FACE8620EE015600811E0A /* PBXTargetDependency */,
+			);
+			name = LWCalendarTests;
+			productName = LWCalendarTests;
+			productReference = 66FACE8420EE015600811E0A /* LWCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66FACE8E20EE015600811E0A /* LWCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FACE9E20EE015600811E0A /* Build configuration list for PBXNativeTarget "LWCalendarUITests" */;
+			buildPhases = (
+				66FACE8B20EE015600811E0A /* Sources */,
+				66FACE8C20EE015600811E0A /* Frameworks */,
+				66FACE8D20EE015600811E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FACE9120EE015600811E0A /* PBXTargetDependency */,
+			);
+			name = LWCalendarUITests;
+			productName = LWCalendarUITests;
+			productReference = 66FACE8F20EE015600811E0A /* LWCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66FACE6420EE015300811E0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ijufeng;
+				TargetAttributes = {
+					66FACE6B20EE015300811E0A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					66FACE8320EE015600811E0A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 66FACE6B20EE015300811E0A;
+					};
+					66FACE8E20EE015600811E0A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 66FACE6B20EE015300811E0A;
+					};
+				};
+			};
+			buildConfigurationList = 66FACE6720EE015300811E0A /* Build configuration list for PBXProject "LWCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66FACE6320EE015300811E0A;
+			productRefGroup = 66FACE6D20EE015300811E0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66FACE6B20EE015300811E0A /* LWCalendar */,
+				66FACE8320EE015600811E0A /* LWCalendarTests */,
+				66FACE8E20EE015600811E0A /* LWCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66FACE6A20EE015300811E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FACE7C20EE015500811E0A /* LaunchScreen.storyboard in Resources */,
+				66FACE7920EE015500811E0A /* Assets.xcassets in Resources */,
+				66FACE7720EE015400811E0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FACE8220EE015600811E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FACE8D20EE015600811E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66FACE6820EE015300811E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FACEAA20EE1FED00811E0A /* LWCalendarHeaderView.m in Sources */,
+				66FACE7420EE015400811E0A /* ViewController.m in Sources */,
+				66FACE7F20EE015500811E0A /* main.m in Sources */,
+				66FACEA720EE185800811E0A /* LWCalendarView.m in Sources */,
+				66FACEAD20EE231A00811E0A /* LWCalendarTableView.m in Sources */,
+				66FACEA420EE129400811E0A /* LWCalendarManager.m in Sources */,
+				66FACE7120EE015400811E0A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FACE8020EE015600811E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FACE8920EE015600811E0A /* LWCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FACE8B20EE015600811E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FACE9420EE015600811E0A /* LWCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66FACE8620EE015600811E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FACE6B20EE015300811E0A /* LWCalendar */;
+			targetProxy = 66FACE8520EE015600811E0A /* PBXContainerItemProxy */;
+		};
+		66FACE9120EE015600811E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FACE6B20EE015300811E0A /* LWCalendar */;
+			targetProxy = 66FACE9020EE015600811E0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66FACE7520EE015400811E0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FACE7620EE015400811E0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66FACE7A20EE015500811E0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FACE7B20EE015500811E0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66FACE9620EE015600811E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66FACE9720EE015600811E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66FACE9920EE015600811E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ijufeng.LWCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66FACE9A20EE015600811E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ijufeng.LWCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66FACE9C20EE015600811E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ijufeng.LWCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWCalendar.app/LWCalendar";
+			};
+			name = Debug;
+		};
+		66FACE9D20EE015600811E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ijufeng.LWCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LWCalendar.app/LWCalendar";
+			};
+			name = Release;
+		};
+		66FACE9F20EE015600811E0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ijufeng.LWCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LWCalendar;
+			};
+			name = Debug;
+		};
+		66FACEA020EE015600811E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LWCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ijufeng.LWCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LWCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66FACE6720EE015300811E0A /* Build configuration list for PBXProject "LWCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FACE9620EE015600811E0A /* Debug */,
+				66FACE9720EE015600811E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FACE9820EE015600811E0A /* Build configuration list for PBXNativeTarget "LWCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FACE9920EE015600811E0A /* Debug */,
+				66FACE9A20EE015600811E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FACE9B20EE015600811E0A /* Build configuration list for PBXNativeTarget "LWCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FACE9C20EE015600811E0A /* Debug */,
+				66FACE9D20EE015600811E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FACE9E20EE015600811E0A /* Build configuration list for PBXNativeTarget "LWCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FACE9F20EE015600811E0A /* Debug */,
+				66FACEA020EE015600811E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66FACE6420EE015300811E0A /* Project object */;
+}
