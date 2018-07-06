@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LWCalendarManager.h"
 
 @interface LWCalendarHeaderView : UIView
+
+@property (nonatomic, strong) LWCalendarManager *manager;
+
+- (void)initSubviews;
 
 @end

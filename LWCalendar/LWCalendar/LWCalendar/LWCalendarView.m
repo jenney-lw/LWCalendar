@@ -50,6 +50,8 @@
         _headerView = [[LWCalendarHeaderView alloc] init];
         _headerView.frame = CGRectMake(0, 0, kScreenWidth, 100);
         [self addSubview:_headerView];
+        
+        [_headerView initSubviews];
     }
 }
 
