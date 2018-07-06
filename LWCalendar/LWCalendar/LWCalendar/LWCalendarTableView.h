@@ -15,6 +15,8 @@
 
 @property (nonatomic, strong) NSArray<NSDate *> *monthArray;
 
+@property (nonatomic, strong) NSMutableArray *existViews;
+
 - (instancetype)initWithFrame:(CGRect)frame manager:(LWCalendarManager *)manager;
 
 @end

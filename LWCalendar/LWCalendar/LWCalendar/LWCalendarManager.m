@@ -37,11 +37,13 @@
 #pragma mark - 显示日历视图
 - (void)showCalendar {
     if (!_calendarView) {
-        _calendarView = [[LWCalendarView alloc] initWithFrame:CGRectMake(0, kScreenHeight, kScreenWidth, kScreenHeight)];
+        _calendarView = [[LWCalendarView alloc] init];
+        _calendarView.frame = CGRectMake(0, kScreenHeight, kScreenWidth, kScreenHeight);
         _calendarView.backgroundColor = [UIColor whiteColor];
         _calendarView.manager = self;
+        [_calendarView initSubviews];
+        [[self appWindow] addSubview:_calendarView];
     }
-    [[self appWindow] addSubview:_calendarView];
     
     __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:0.35 delay:0 options:UIViewAnimationOptionCurveLinear animations:^{

@@ -10,6 +10,10 @@
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
+//相对iphone6布局
+#define scale_w kScreenWidth / 375.0
+#define scale_h kScreenHeight / 667.0
+
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSInteger, LWCalendar_select_type) {

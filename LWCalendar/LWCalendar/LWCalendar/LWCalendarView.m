@@ -21,13 +21,22 @@
 
 @implementation LWCalendarView
 
-- (instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
+- (instancetype)init {
+    self = [super init];
     if (self) {
         self.selectDateArray = [NSMutableArray array];
     }
     return self;
 }
+
+//- (instancetype)initWithFrame:(CGRect)frame {
+//    self = [super initWithFrame:frame];
+//    if (self) {
+//        self.selectDateArray = [NSMutableArray array];
+//        [self initSubviews];
+//    }
+//    return self;
+//}
 
 #pragma mark - 初始化子视图
 - (void)initSubviews {

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66AF312B20EEEFC5007B0613 /* NSDate+LWCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AF312A20EEEFC5007B0613 /* NSDate+LWCalendar.m */; };
+		66AF312E20EF0996007B0613 /* LWCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AF312D20EF0996007B0613 /* LWCalendarCell.m */; };
+		66AF313120EF4DDB007B0613 /* LWCalendarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AF313020EF4DDB007B0613 /* LWCalendarButton.m */; };
 		66FACE7120EE015400811E0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACE7020EE015400811E0A /* AppDelegate.m */; };
 		66FACE7420EE015400811E0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FACE7320EE015400811E0A /* ViewController.m */; };
 		66FACE7720EE015400811E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FACE7520EE015400811E0A /* Main.storyboard */; };
@@ -39,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66AF312920EEEFC5007B0613 /* NSDate+LWCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+LWCalendar.h"; sourceTree = "<group>"; };
+		66AF312A20EEEFC5007B0613 /* NSDate+LWCalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LWCalendar.m"; sourceTree = "<group>"; };
+		66AF312C20EF0996007B0613 /* LWCalendarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCalendarCell.h; sourceTree = "<group>"; };
+		66AF312D20EF0996007B0613 /* LWCalendarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCalendarCell.m; sourceTree = "<group>"; };
+		66AF312F20EF4DDB007B0613 /* LWCalendarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCalendarButton.h; sourceTree = "<group>"; };
+		66AF313020EF4DDB007B0613 /* LWCalendarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCalendarButton.m; sourceTree = "<group>"; };
 		66FACE6C20EE015300811E0A /* LWCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FACE6F20EE015300811E0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66FACE7020EE015400811E0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -156,6 +165,12 @@
 				66FACEA920EE1FED00811E0A /* LWCalendarHeaderView.m */,
 				66FACEAB20EE231A00811E0A /* LWCalendarTableView.h */,
 				66FACEAC20EE231A00811E0A /* LWCalendarTableView.m */,
+				66AF312920EEEFC5007B0613 /* NSDate+LWCalendar.h */,
+				66AF312A20EEEFC5007B0613 /* NSDate+LWCalendar.m */,
+				66AF312C20EF0996007B0613 /* LWCalendarCell.h */,
+				66AF312D20EF0996007B0613 /* LWCalendarCell.m */,
+				66AF312F20EF4DDB007B0613 /* LWCalendarButton.h */,
+				66AF313020EF4DDB007B0613 /* LWCalendarButton.m */,
 			);
 			path = LWCalendar;
 			sourceTree = "<group>";
@@ -290,11 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AF312E20EF0996007B0613 /* LWCalendarCell.m in Sources */,
 				66FACEAA20EE1FED00811E0A /* LWCalendarHeaderView.m in Sources */,
+				66AF313120EF4DDB007B0613 /* LWCalendarButton.m in Sources */,
 				66FACE7420EE015400811E0A /* ViewController.m in Sources */,
 				66FACE7F20EE015500811E0A /* main.m in Sources */,
 				66FACEA720EE185800811E0A /* LWCalendarView.m in Sources */,
 				66FACEAD20EE231A00811E0A /* LWCalendarTableView.m in Sources */,
+				66AF312B20EEEFC5007B0613 /* NSDate+LWCalendar.m in Sources */,
 				66FACEA420EE129400811E0A /* LWCalendarManager.m in Sources */,
 				66FACE7120EE015400811E0A /* AppDelegate.m in Sources */,
 			);
